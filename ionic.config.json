@@ -1,0 +1,7 @@
+{
+  "name": "taskIonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

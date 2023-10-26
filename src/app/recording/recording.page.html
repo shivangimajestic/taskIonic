@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title><ion-img src="assets\transparent-task-logo.png" alt="error">
+    </ion-img></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item class="about-class">
+    <ion-label>Recordings</ion-label>
+  </ion-item>
+
+  <ion-list>
+    <ion-item>
+      <ion-select aria-label="course" value="VIIIth PCMB" interface="popover"  class="courses">
+        <ion-select-option value="VIIIth PCMB">VIIIth PCMB</ion-select-option>
+        <ion-select-option value="X Biology">X Biology</ion-select-option>
+        <ion-select-option value="IX Biology">IX Biology</ion-select-option>
+        <ion-select-option value="X Chemistry">X Chemistry</ion-select-option>
+        <ion-select-option value="PCMB">PCMB</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+  <ion-item class="list-item">
+    <ion-icon name="folder-open" slot="start" class="folder-icon" size="large"></ion-icon>
+    <ion-label class="label-item">VIIIth PCMB</ion-label>
+  </ion-item>
+</ion-content>

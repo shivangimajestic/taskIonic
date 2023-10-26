@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title><img  src="assets\task-tutorials-logo.png" alt=""></ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button> 
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-toolbar>
+    <div class="orange_notes_area">
+      
+      <ion-label class = "white_notes">Notes</ion-label>
+    </div>
+  </ion-toolbar>
+  <ion-list>
+    <ion-item>
+      <ion-select interface="popover"  placeholder="Select cource ">
+        <ion-select-option  value="PCMB">PCMB</ion-select-option>
+        <ion-select-option value="Bio">Bio</ion-select-option>
+        <ion-select-option value="Math">Math</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+</ion-content>
+  

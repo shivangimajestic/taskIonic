@@ -23,7 +23,8 @@ const routes: Routes = [
   {
     path: 'recording',
     loadChildren: () => import('./recording/recording.module').then( m => m.RecordingPageModule)
-
+  },
+  {
     path: 'changepassword',
     loadChildren: () => import('./changepassword/changepassword.module').then( m => m.ChangepasswordPageModule)
 

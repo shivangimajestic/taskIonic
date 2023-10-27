@@ -35,6 +35,10 @@ const routes: Routes = [
   {
     path: 'homework',
     loadChildren: () => import('./homework/homework.module').then( m => m.HomeworkPageModule)
+  },
+  {
+    path: 'zoommeeting',
+    loadChildren: () => import('./zoommeeting/zoommeeting.module').then( m => m.ZoommeetingPageModule)
   }
 
 

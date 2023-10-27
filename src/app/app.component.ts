@@ -11,7 +11,7 @@ export class AppComponent {
     { title: 'Recording', url: '/recording', icon: 'videocam' },
     { title: 'Attendance', url: '/attendance', icon: 'person' },
     { title: 'Homework', url: '/homework', icon: 'book' },
-    { title: 'Zoom Meeting', url: '/folder/zoomMeeting', icon: 'videocam' },
+    { title: 'Zoom Meeting', url: '/zoommeeting', icon: 'videocam' },
     { title: 'Change Password', url: '/changepassword', icon: 'create' },
     { title: 'Logout', url: '/folder/logout', icon: 'log-out' },
   ];

@@ -10,7 +10,7 @@ export class AppComponent {
     { title: 'Notes', url: '/notes', icon: 'newspaper' },
     { title: 'Recording', url: '/recording', icon: 'videocam' },
     { title: 'Attendance', url: '/attendance', icon: 'person' },
-    { title: 'Homework', url: '/folder/homework', icon: 'book' },
+    { title: 'Homework', url: '/homework', icon: 'book' },
     { title: 'Zoom Meeting', url: '/folder/zoomMeeting', icon: 'videocam' },
     { title: 'Change Password', url: '/changepassword', icon: 'create' },
     { title: 'Logout', url: '/folder/logout', icon: 'log-out' },

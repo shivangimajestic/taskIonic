@@ -1,0 +1,54 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>      
+    </ion-buttons>
+    <ion-title><img src="assets/transparent-task-logo.png" alt=""></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item class="orange_notes_area">
+    <ion-label>Homework</ion-label>
+  </ion-item>
+  <ion-list>
+    <ion-item>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-select aria-label="course" class="drop_down-cource" interface="popover"  placeholder="Select Cource">
+              <ion-select-option value="VIIIth PCMB">VIIIth PCMB</ion-select-option>
+              <ion-select-option value="Xth Biology">Xth Biology</ion-select-option>
+              <ion-select-option value="IXth Biology">IXth Biology</ion-select-option>
+              <ion-select-option value="Xth Chemistry">Xth Chemistry</ion-select-option>
+              <ion-select-option value="PCMB">PCMB</ion-select-option>
+            </ion-select>
+          </ion-col>
+          <ion-col>
+            <ion-select aria-label="topic" class="drop_down-topic" interface="popover"  placeholder="Select Topic">
+              <ion-select-option value="chapter1">Chapter1</ion-select-option>
+              <ion-select-option value="chapter2">Chapter2</ion-select-option>
+            </ion-select>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+  </ion-list> 
+
+  <ion-item class="folder-box">
+    <ion-icon name="folder-open" slot="start" class="folder-logo" size="large"></ion-icon>
+    <ion-label >homework_pcmb <br><div class="timmer">23-10-12 07:04:37</div></ion-label>
+  </ion-item>
+  <ion-item class="folder-box">
+    <ion-icon name="folder-open" slot="start" class="folder-logo" size="large"></ion-icon>
+    <ion-label >Test2<br><div class="timmer">23-10-12 07:45:05</div></ion-label>
+  </ion-item>
+  <ion-item class="folder-box">
+    <ion-icon name="folder-open" slot="start" class="folder-logo" size="large"></ion-icon>
+    <ion-label >anatomy work<br><div class="timmer">23-10-20 01:02:20</div></ion-label>
+  </ion-item>
+  <ion-item class="folder-box">
+    <ion-icon name="folder-open" slot="start" class="folder-logo" size="large"></ion-icon>
+    <ion-label >physics work<br><div class="timmer">23-10-26 01:03:32</div></ion-label>
+  </ion-item>
+</ion-content>

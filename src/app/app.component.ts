@@ -13,7 +13,7 @@ export class AppComponent {
     { title: 'Homework', url: '/homework', icon: 'book' },
     { title: 'Zoom Meeting', url: '/folder/zoomMeeting', icon: 'videocam' },
     { title: 'Change Password', url: '/changepassword', icon: 'create' },
-    { title: 'Logout', url: '/folder/logout', icon: 'log-out' },
+    { title: 'Logout', url: '/logout', icon: 'log-out' },
   ];
   constructor() {}
 }

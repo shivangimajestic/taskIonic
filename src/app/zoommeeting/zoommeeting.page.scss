@@ -1,0 +1,39 @@
+.background_color{
+    background-color :#f5edea; 
+    padding-top: 1px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+.meeting-zone{
+    background-color: white;
+    border: 1px solid #fbd4d3;
+    border-radius: 35px;
+    margin: 20px;
+    height: 200px;
+    padding-left: 20px;
+    line-height: 30px;
+}
+    .imag{
+        position:sticky;
+        right: 50px;
+        top: 10px;
+        height: 80px;
+    }
+
+.nameOfTeacher{
+    font-weight: 600;
+}
+.timing{
+    font-weight: 100;
+}
+.button_{
+    --background:#ec5b5b;  
+    --background-activated: #f79a97;
+    margin-left: 90px;
+    margin-top: 15px;
+    border-radius: 50px;
+    
+}
+
